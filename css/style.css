@@ -1,0 +1,40 @@
+.main{
+    padding: 50px;
+}
+h2{
+    color: #aaa;
+    padding-bottom: 40px;
+}
+
+.box{
+    
+    width:90%;
+    margin: auto;
+    padding: 60px 30px;
+    background-color: #eee;
+    margin: 30px ;
+    text-align: center;
+}
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+    padding: 0 30px 30px;
+
+}
+h6{
+    margin: 10px 0;
+}
+.speical {
+    margin-top: 20px;
+}
+.line {
+    border-top: 1px solid black;
+   
+   
+}
+.direction  {
+    color: red;
+    font-size: 13px;
+    text-align: left;
+    
+}

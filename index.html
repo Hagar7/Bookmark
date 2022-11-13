@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Bookmarker</h2>
+            <div class="line"></div>
+            <div class="box">
+                <h3>Bookmark your favorite sites</h3>
+                <h6>Site Name</h6>
+                <input type="text" placeholder="BookMark Name" id="bookName" class="form-control">  
+                <div class="direction alert-danger p-2 my-2 d-none" id="nameAlert">First Letter Should be a Capital Letter</div>
+                <h6>Site URL</h6>
+                <input type="text" placeholder="Website Url" id="bookUrl" class="form-control">
+                <div class="direction  alert-danger p-2 my-2 d-none" id="urlAlert">Invalid Url</div>
+                <button disabled class="btn btn-primary speical" id="myBtn">Submit</button>
+            </div>
+            <div class="line"></div>
+            <input id="searchInput" type="text" class="form-control m-3" placeholder="Search Name Here.....">
+        </div>
+        </div>
+        <div class="table-show ">
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <th>BookMark Name</th>
+                        <th>BookMark Url</th>
+                        <th>Visit</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                   
+
+                </table>
+
+            </div>
+        </div>
+        
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script> 
+</body>
+</html>
